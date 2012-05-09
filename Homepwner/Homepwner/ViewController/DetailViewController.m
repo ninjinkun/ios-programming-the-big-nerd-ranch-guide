@@ -24,10 +24,10 @@
 
 #pragma mark - Managing the detail item
 
-- (void)setPossession:(id)newDetailItem
+- (void)setPossession:(id)possession
 {
-    if (_possession != newDetailItem) {
-        _possession = newDetailItem;
+    if (_possession != possession) {
+        _possession = possession;
         
         // Update the view.
         [self configureView];
@@ -132,11 +132,13 @@
     }    
     
     UIImage *image = [info objectForKey:UIImagePickerControllerOriginalImage];
+
     CFUUIDRef newUniqueId = CFUUIDCreate(kCFAllocatorDefault);
     CFStringRef newUniqueIdString = CFUUIDCreateString(kCFAllocatorDefault, newUniqueId);
     _possession.imageKey = (__bridge NSString *)newUniqueIdString;
     CFRelease(newUniqueId);
     CFRelease(newUniqueIdString);
+
     [[ImageStore defaultImageStore] setImage:image forKey:_possession.imageKey];
     _imageView.image = image;
     [self dismissModalViewControllerAnimated:YES];

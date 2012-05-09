@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		260B1E2B1559F31C00007FDA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260B1E281559F31C00007FDA /* DetailViewController.m */; };
+		260B1E2C1559F31C00007FDA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260B1E2A1559F31C00007FDA /* MasterViewController.m */; };
+		260B1E331559F32400007FDA /* ImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 260B1E2E1559F32400007FDA /* ImageStore.m */; };
+		260B1E341559F32400007FDA /* Possession.m in Sources */ = {isa = PBXBuildFile; fileRef = 260B1E301559F32400007FDA /* Possession.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		260B1E351559F32400007FDA /* PossessionStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 260B1E321559F32400007FDA /* PossessionStore.m */; };
 		268D9E54150EBE1600CB085F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268D9E53150EBE1600CB085F /* UIKit.framework */; };
 		268D9E56150EBE1600CB085F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268D9E55150EBE1600CB085F /* Foundation.framework */; };
 		268D9E58150EBE1600CB085F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268D9E57150EBE1600CB085F /* CoreGraphics.framework */; };
 		268D9E5E150EBE1600CB085F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 268D9E5C150EBE1600CB085F /* InfoPlist.strings */; };
 		268D9E60150EBE1600CB085F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 268D9E5F150EBE1600CB085F /* main.m */; };
 		268D9E64150EBE1600CB085F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 268D9E63150EBE1600CB085F /* AppDelegate.m */; };
-		268D9E67150EBE1600CB085F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 268D9E66150EBE1600CB085F /* MasterViewController.m */; };
-		268D9E6A150EBE1600CB085F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 268D9E69150EBE1600CB085F /* DetailViewController.m */; };
 		268D9E70150EBE1600CB085F /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 268D9E6E150EBE1600CB085F /* DetailViewController.xib */; };
-		268D9E7C150EBE8F00CB085F /* PossessionStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 268D9E7B150EBE8F00CB085F /* PossessionStore.m */; };
-		268D9E7D150EC29E00CB085F /* Possession.m in Sources */ = {isa = PBXBuildFile; fileRef = 268D9E77150EBE4900CB085F /* Possession.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		268D9E80150ECC4F00CB085F /* ImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 268D9E7F150ECC4F00CB085F /* ImageStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		260B1E271559F31C00007FDA /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ViewController/DetailViewController.h; sourceTree = "<group>"; };
+		260B1E281559F31C00007FDA /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ViewController/DetailViewController.m; sourceTree = "<group>"; };
+		260B1E291559F31C00007FDA /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = ViewController/MasterViewController.h; sourceTree = "<group>"; };
+		260B1E2A1559F31C00007FDA /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = ViewController/MasterViewController.m; sourceTree = "<group>"; };
+		260B1E2D1559F32400007FDA /* ImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageStore.h; path = Model/ImageStore.h; sourceTree = "<group>"; };
+		260B1E2E1559F32400007FDA /* ImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageStore.m; path = Model/ImageStore.m; sourceTree = "<group>"; };
+		260B1E2F1559F32400007FDA /* Possession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Possession.h; path = Model/Possession.h; sourceTree = "<group>"; };
+		260B1E301559F32400007FDA /* Possession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Possession.m; path = Model/Possession.m; sourceTree = "<group>"; };
+		260B1E311559F32400007FDA /* PossessionStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PossessionStore.h; path = Model/PossessionStore.h; sourceTree = "<group>"; };
+		260B1E321559F32400007FDA /* PossessionStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PossessionStore.m; path = Model/PossessionStore.m; sourceTree = "<group>"; };
 		268D9E4F150EBE1600CB085F /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		268D9E53150EBE1600CB085F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		268D9E55150EBE1600CB085F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,17 +42,7 @@
 		268D9E61150EBE1600CB085F /* Homepwner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Homepwner-Prefix.pch"; sourceTree = "<group>"; };
 		268D9E62150EBE1600CB085F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		268D9E63150EBE1600CB085F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		268D9E65150EBE1600CB085F /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		268D9E66150EBE1600CB085F /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		268D9E68150EBE1600CB085F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		268D9E69150EBE1600CB085F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		268D9E6F150EBE1600CB085F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
-		268D9E76150EBE4900CB085F /* Possession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Possession.h; sourceTree = "<group>"; };
-		268D9E77150EBE4900CB085F /* Possession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Possession.m; sourceTree = "<group>"; };
-		268D9E7A150EBE8F00CB085F /* PossessionStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PossessionStore.h; sourceTree = "<group>"; };
-		268D9E7B150EBE8F00CB085F /* PossessionStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PossessionStore.m; sourceTree = "<group>"; };
-		268D9E7E150ECC4F00CB085F /* ImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageStore.h; sourceTree = "<group>"; };
-		268D9E7F150ECC4F00CB085F /* ImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,12 +113,12 @@
 		268D9E78150EBE4F00CB085F /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				268D9E76150EBE4900CB085F /* Possession.h */,
-				268D9E77150EBE4900CB085F /* Possession.m */,
-				268D9E7A150EBE8F00CB085F /* PossessionStore.h */,
-				268D9E7B150EBE8F00CB085F /* PossessionStore.m */,
-				268D9E7E150ECC4F00CB085F /* ImageStore.h */,
-				268D9E7F150ECC4F00CB085F /* ImageStore.m */,
+				260B1E2D1559F32400007FDA /* ImageStore.h */,
+				260B1E2E1559F32400007FDA /* ImageStore.m */,
+				260B1E2F1559F32400007FDA /* Possession.h */,
+				260B1E301559F32400007FDA /* Possession.m */,
+				260B1E311559F32400007FDA /* PossessionStore.h */,
+				260B1E321559F32400007FDA /* PossessionStore.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -126,10 +126,10 @@
 		268D9E79150EBE5B00CB085F /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				268D9E65150EBE1600CB085F /* MasterViewController.h */,
-				268D9E66150EBE1600CB085F /* MasterViewController.m */,
-				268D9E68150EBE1600CB085F /* DetailViewController.h */,
-				268D9E69150EBE1600CB085F /* DetailViewController.m */,
+				260B1E271559F31C00007FDA /* DetailViewController.h */,
+				260B1E281559F31C00007FDA /* DetailViewController.m */,
+				260B1E291559F31C00007FDA /* MasterViewController.h */,
+				260B1E2A1559F31C00007FDA /* MasterViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -198,11 +198,11 @@
 			files = (
 				268D9E60150EBE1600CB085F /* main.m in Sources */,
 				268D9E64150EBE1600CB085F /* AppDelegate.m in Sources */,
-				268D9E67150EBE1600CB085F /* MasterViewController.m in Sources */,
-				268D9E6A150EBE1600CB085F /* DetailViewController.m in Sources */,
-				268D9E7C150EBE8F00CB085F /* PossessionStore.m in Sources */,
-				268D9E7D150EC29E00CB085F /* Possession.m in Sources */,
-				268D9E80150ECC4F00CB085F /* ImageStore.m in Sources */,
+				260B1E2B1559F31C00007FDA /* DetailViewController.m in Sources */,
+				260B1E2C1559F31C00007FDA /* MasterViewController.m in Sources */,
+				260B1E331559F32400007FDA /* ImageStore.m in Sources */,
+				260B1E341559F32400007FDA /* Possession.m in Sources */,
+				260B1E351559F32400007FDA /* PossessionStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +314,7 @@
 				268D9E75150EBE1600CB085F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
